@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane prefHeight="317.0" prefWidth="499.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="21.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Historial" wrappingWidth="106.728515625">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="250.0" layoutY="95.0" mnemonicParsing="false" onAction="#touchEight" style="-fx-background-color: blue;" text="8" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="299.0" layoutY="95.0" mnemonicParsing="false" onAction="#touchNine" style="-fx-background-color: blue;" text="9" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="202.0" layoutY="142.0" mnemonicParsing="false" onAction="#touchFour" style="-fx-background-color: blue;" text="4" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="250.0" layoutY="142.0" mnemonicParsing="false" onAction="#touchFive" style="-fx-background-color: blue;" text="5" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="299.0" layoutY="142.0" mnemonicParsing="false" onAction="#touchSix" style="-fx-background-color: blue;" text="6" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="202.0" layoutY="194.0" mnemonicParsing="false" onAction="#touchOne" style="-fx-background-color: blue;" text="1" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="250.0" layoutY="194.0" mnemonicParsing="false" onAction="#touchTwo" style="-fx-background-color: blue;" text="2" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="299.0" layoutY="194.0" mnemonicParsing="false" onAction="#touchThree" style="-fx-background-color: blue;" text="3" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="250.0" layoutY="243.0" mnemonicParsing="false" onAction="#touchZero" style="-fx-background-color: blue;" text="0" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="360.0" layoutY="194.0" mnemonicParsing="false" onAction="#touchCalculate" prefHeight="30.0" prefWidth="109.0" style="-fx-background-color: blue;" text="Calcular" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="360.0" layoutY="157.0" minWidth="50.0" mnemonicParsing="false" onAction="#touchSum" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: blue;" text="+" textFill="WHITE" />
+            <Button layoutX="416.0" layoutY="157.0" minWidth="50.0" mnemonicParsing="false" onAction="#touchSubtraction" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: blue;" text="-" textFill="WHITE" />
+            <Button layoutX="360.0" layoutY="118.0" minWidth="50.0" mnemonicParsing="false" onAction="#touchMultiplication" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: blue;" text="x" textFill="WHITE" />
+            <Button layoutX="202.0" layoutY="95.0" mnemonicParsing="false" onAction="#touchSeven" style="-fx-background-color: blue;" text="7" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="showOperation" layoutX="202.0" layoutY="28.0" prefHeight="28.0" prefWidth="273.0">
+               <font>
+                  <Font size="32.0" />
+               </font></Label>
+            <Button layoutX="416.0" layoutY="118.0" minWidth="50.0" mnemonicParsing="false" onAction="#touchC" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: blue;" text="C" textFill="WHITE" />
+            <TextField fx:id="toShowRecord" layoutX="21.0" layoutY="50.0" prefHeight="246.0" prefWidth="152.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
